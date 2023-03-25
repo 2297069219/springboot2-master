@@ -1,0 +1,13 @@
+spring:
+  resources:
+    static-locations: [classpath:/haha/]
+    add-mappings: true
+    cache:
+      period: 11000
+
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+#  mvc:
+#    static-path-pattern: /res/**
